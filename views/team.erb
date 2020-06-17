@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <title>Basketball Team</title>
  </head>
+ <style>body  
+  {text-align: center;
+   background: red;
+   color: white;} 
+  h1 
+  {background: white;
+   color: black;}
+  h2
+  {background: white;
+   color: black;}
+  </style>
  <body>
- 
-
-
- </body>
+   <h1>Team Name: <%= @name %> </h1>
+   <h2>Coach: <%= @coach %> </h2>
+   <h2>Point Guard: <%= @pg %> </h2>
+   <h2>Shooting Guard: <%= @sg %> </h2>
+   <h2>Small Forward: <%= @sf %> </h2>
+   <h2>Power Forward: <%= @pf %> </h2>
+   <h2>Center: <%= @c %> </h2>
+   <img src="https://www.nba.com/blazers/sites/blazers/files/000003_12.jpg" width="1000" height="333">
+  </body>
 </html>
 
 
